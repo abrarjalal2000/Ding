@@ -3,27 +3,55 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		AF2515F926508256006B6A84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2515F826508256006B6A84 /* AppDelegate.swift */; };
 		AF2515FB26508256006B6A84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2515FA26508256006B6A84 /* SceneDelegate.swift */; };
-		AF2515FD26508256006B6A84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2515FC26508256006B6A84 /* ViewController.swift */; };
+		AF2515FD26508256006B6A84 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2515FC26508256006B6A84 /* HomePageViewController.swift */; };
 		AF25160026508256006B6A84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF2515FE26508256006B6A84 /* Main.storyboard */; };
 		AF25160226508256006B6A84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF25160126508256006B6A84 /* Assets.xcassets */; };
 		AF25160526508256006B6A84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF25160326508256006B6A84 /* LaunchScreen.storyboard */; };
+		AF25160D26509D7B006B6A84 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF25160C26509D7B006B6A84 /* LoginViewController.swift */; };
+		AF25160F26509D8A006B6A84 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF25160E26509D8A006B6A84 /* SignUpViewController.swift */; };
+		AF2516112650A103006B6A84 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF2516102650A103006B6A84 /* GoogleService-Info.plist */; };
+		AF86E1E82651473900A628FE /* SocialMediaDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF86E1E72651473900A628FE /* SocialMediaDetailViewController.swift */; };
+		AF86E1EA265159DF00A628FE /* SocialMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF86E1E9265159DF00A628FE /* SocialMedia.swift */; };
+		AF86E1EC265165C100A628FE /* UIViewController+alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF86E1EB265165C100A628FE /* UIViewController+alert.swift */; };
+		AF86E1EE26516A6400A628FE /* SocialMedias.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF86E1ED26516A6400A628FE /* SocialMedias.swift */; };
+		AF8886872651C2590069507B /* DingUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8886862651C2590069507B /* DingUser.swift */; };
+		AF8886892651CA420069507B /* DingUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8886882651CA420069507B /* DingUserViewController.swift */; };
+		AF88868B2651E9DE0069507B /* ShowUserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF88868A2651E9DE0069507B /* ShowUserDetailViewController.swift */; };
+		AF88868D2651F5D20069507B /* DingUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF88868C2651F5D20069507B /* DingUsers.swift */; };
+		AF88868F2651FEEA0069507B /* DingUserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF88868E2651FEEA0069507B /* DingUserTableViewCell.swift */; };
+		B10B75E1C70355BFD8BAA219 /* Pods_Ding1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE994D57B749C2205A3EB53 /* Pods_Ding1.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AAFD9B586051D900A9E8AA66 /* Pods-Ding1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ding1.release.xcconfig"; path = "Target Support Files/Pods-Ding1/Pods-Ding1.release.xcconfig"; sourceTree = "<group>"; };
 		AF2515F526508256006B6A84 /* Ding1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ding1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF2515F826508256006B6A84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF2515FA26508256006B6A84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AF2515FC26508256006B6A84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF2515FC26508256006B6A84 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		AF2515FF26508256006B6A84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF25160126508256006B6A84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF25160426508256006B6A84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF25160626508256006B6A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF25160C26509D7B006B6A84 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AF25160E26509D8A006B6A84 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		AF2516102650A103006B6A84 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AF86E1E72651473900A628FE /* SocialMediaDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaDetailViewController.swift; sourceTree = "<group>"; };
+		AF86E1E9265159DF00A628FE /* SocialMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMedia.swift; sourceTree = "<group>"; };
+		AF86E1EB265165C100A628FE /* UIViewController+alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+alert.swift"; sourceTree = "<group>"; };
+		AF86E1ED26516A6400A628FE /* SocialMedias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMedias.swift; sourceTree = "<group>"; };
+		AF8886862651C2590069507B /* DingUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DingUser.swift; sourceTree = "<group>"; };
+		AF8886882651CA420069507B /* DingUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DingUserViewController.swift; sourceTree = "<group>"; };
+		AF88868A2651E9DE0069507B /* ShowUserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowUserDetailViewController.swift; sourceTree = "<group>"; };
+		AF88868C2651F5D20069507B /* DingUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DingUsers.swift; sourceTree = "<group>"; };
+		AF88868E2651FEEA0069507B /* DingUserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DingUserTableViewCell.swift; sourceTree = "<group>"; };
+		DFE994D57B749C2205A3EB53 /* Pods_Ding1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ding1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9E36A4D3EAE69ABA1A11EB8 /* Pods-Ding1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ding1.debug.xcconfig"; path = "Target Support Files/Pods-Ding1/Pods-Ding1.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +59,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B10B75E1C70355BFD8BAA219 /* Pods_Ding1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12697CA378BD864F8B368B78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9E36A4D3EAE69ABA1A11EB8 /* Pods-Ding1.debug.xcconfig */,
+				AAFD9B586051D900A9E8AA66 /* Pods-Ding1.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3D4A4BEEB95B8DB71E7DF02D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFE994D57B749C2205A3EB53 /* Pods_Ding1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AF2515EC26508256006B6A84 = {
 			isa = PBXGroup;
 			children = (
 				AF2515F726508256006B6A84 /* Ding1 */,
 				AF2515F626508256006B6A84 /* Products */,
+				12697CA378BD864F8B368B78 /* Pods */,
+				3D4A4BEEB95B8DB71E7DF02D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +106,23 @@
 			children = (
 				AF2515F826508256006B6A84 /* AppDelegate.swift */,
 				AF2515FA26508256006B6A84 /* SceneDelegate.swift */,
-				AF2515FC26508256006B6A84 /* ViewController.swift */,
+				AF86E1E9265159DF00A628FE /* SocialMedia.swift */,
+				AF86E1ED26516A6400A628FE /* SocialMedias.swift */,
+				AF8886862651C2590069507B /* DingUser.swift */,
+				AF88868C2651F5D20069507B /* DingUsers.swift */,
+				AF25160C26509D7B006B6A84 /* LoginViewController.swift */,
+				AF25160E26509D8A006B6A84 /* SignUpViewController.swift */,
+				AF2515FC26508256006B6A84 /* HomePageViewController.swift */,
+				AF86E1E72651473900A628FE /* SocialMediaDetailViewController.swift */,
+				AF8886882651CA420069507B /* DingUserViewController.swift */,
+				AF88868E2651FEEA0069507B /* DingUserTableViewCell.swift */,
+				AF88868A2651E9DE0069507B /* ShowUserDetailViewController.swift */,
+				AF86E1EB265165C100A628FE /* UIViewController+alert.swift */,
 				AF2515FE26508256006B6A84 /* Main.storyboard */,
 				AF25160126508256006B6A84 /* Assets.xcassets */,
 				AF25160326508256006B6A84 /* LaunchScreen.storyboard */,
 				AF25160626508256006B6A84 /* Info.plist */,
+				AF2516102650A103006B6A84 /* GoogleService-Info.plist */,
 			);
 			path = Ding1;
 			sourceTree = "<group>";
@@ -74,9 +134,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF25160926508256006B6A84 /* Build configuration list for PBXNativeTarget "Ding1" */;
 			buildPhases = (
+				B50F5481E4EEC26662084CA9 /* [CP] Check Pods Manifest.lock */,
 				AF2515F126508256006B6A84 /* Sources */,
 				AF2515F226508256006B6A84 /* Frameworks */,
 				AF2515F326508256006B6A84 /* Resources */,
+				05789B42BB5A9490382A53ED /* [CP] Embed Pods Frameworks */,
+				B44F83070BB1D3F093558937 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF25160526508256006B6A84 /* LaunchScreen.storyboard in Resources */,
+				AF2516112650A103006B6A84 /* GoogleService-Info.plist in Resources */,
 				AF25160226508256006B6A84 /* Assets.xcassets in Resources */,
 				AF25160026508256006B6A84 /* Main.storyboard in Resources */,
 			);
@@ -132,14 +196,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05789B42BB5A9490382A53ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ding1/Pods-Ding1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ding1/Pods-Ding1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ding1/Pods-Ding1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B44F83070BB1D3F093558937 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ding1/Pods-Ding1-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ding1/Pods-Ding1-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ding1/Pods-Ding1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B50F5481E4EEC26662084CA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ding1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AF2515F126508256006B6A84 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF2515FD26508256006B6A84 /* ViewController.swift in Sources */,
+				AF25160D26509D7B006B6A84 /* LoginViewController.swift in Sources */,
+				AF88868D2651F5D20069507B /* DingUsers.swift in Sources */,
+				AF2515FD26508256006B6A84 /* HomePageViewController.swift in Sources */,
+				AF8886892651CA420069507B /* DingUserViewController.swift in Sources */,
 				AF2515F926508256006B6A84 /* AppDelegate.swift in Sources */,
 				AF2515FB26508256006B6A84 /* SceneDelegate.swift in Sources */,
+				AF25160F26509D8A006B6A84 /* SignUpViewController.swift in Sources */,
+				AF88868F2651FEEA0069507B /* DingUserTableViewCell.swift in Sources */,
+				AF86E1EE26516A6400A628FE /* SocialMedias.swift in Sources */,
+				AF8886872651C2590069507B /* DingUser.swift in Sources */,
+				AF86E1EA265159DF00A628FE /* SocialMedia.swift in Sources */,
+				AF86E1E82651473900A628FE /* SocialMediaDetailViewController.swift in Sources */,
+				AF86E1EC265165C100A628FE /* UIViewController+alert.swift in Sources */,
+				AF88868B2651E9DE0069507B /* ShowUserDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +417,7 @@
 		};
 		AF25160A26508256006B6A84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9E36A4D3EAE69ABA1A11EB8 /* Pods-Ding1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +437,7 @@
 		};
 		AF25160B26508256006B6A84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAFD9B586051D900A9E8AA66 /* Pods-Ding1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
